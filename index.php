@@ -6,7 +6,7 @@ $authKey = "7740f9f76920a3e3114234f59a882b1b8655c44bdce68e4694b45e606a970299";
 $endpoints = [
     'category' => 'Categories',
     'units' => 'Units',
-    'items' => 'Master Items',
+    'items' => 'Items',
     'entity' => 'Entities',
     'departments' => 'Departments',
     'country' => 'Countries',
@@ -843,4 +843,5 @@ function renderDataTable($data, $title = "Data") {
         });
     </script>
 </body>
+
 </html>
